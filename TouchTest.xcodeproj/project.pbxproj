@@ -21,6 +21,7 @@
 		D2982CB1187BE1BD004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982C93187BE1BD004E8886 /* UIKit.framework */; };
 		D2982CB9187BE1BD004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982CB7187BE1BD004E8886 /* InfoPlist.strings */; };
 		D2982CBB187BE1BD004E8886 /* TouchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982CBA187BE1BD004E8886 /* TouchTestTests.m */; };
+		D2982CC6187BE231004E8886 /* Football.png in Resources */ = {isa = PBXBuildFile; fileRef = D2982CC5187BE231004E8886 /* Football.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D2982CB6187BE1BD004E8886 /* TouchTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982CB8187BE1BD004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982CBA187BE1BD004E8886 /* TouchTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTestTests.m; sourceTree = "<group>"; };
+		D2982CC5187BE231004E8886 /* Football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Football.png; path = Resources/Football.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		D2982C83187BE1BD004E8886 = {
 			isa = PBXGroup;
 			children = (
+				D2982CC4187BE21E004E8886 /* Resources */,
 				D2982C95187BE1BD004E8886 /* TouchTest */,
 				D2982CB4187BE1BD004E8886 /* TouchTestTests */,
 				D2982C8E187BE1BD004E8886 /* Frameworks */,
@@ -150,6 +153,14 @@
 				D2982CB7187BE1BD004E8886 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2982CC4187BE21E004E8886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2982CC5187BE231004E8886 /* Football.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			files = (
 				D2982CA8187BE1BD004E8886 /* Images.xcassets in Resources */,
 				D2982C9A187BE1BD004E8886 /* InfoPlist.strings in Resources */,
+				D2982CC6187BE231004E8886 /* Football.png in Resources */,
 				D2982CA3187BE1BD004E8886 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
